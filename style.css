@@ -1,0 +1,49 @@
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+a {
+  text-decoration: none;
+  color:#29524A;
+  font-weight: 600;
+}
+
+a:hover {
+  background-color: mistyrose
+}
+
+h2 {
+  color: #E9BCB6;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 400px;
+  }
+}
